@@ -1,0 +1,29 @@
+App/Profile
+{
+ zorder 500
+ container BorderPanel(Profile/Border)
+ {
+  metrics_mode relative
+  vert_align top
+  horz_align left
+  left 0.2
+  top  0.95
+  width 0.8
+  height 0.05
+  material  bgui.window
+  
+  element TextArea(Profile/Text)
+  {
+   metrics_mode pixels
+   left 5
+   top 5
+   width 90
+   height 30
+   font_name MSBold
+   char_height 18
+   caption Profile : 
+   colour_top    0.749 0.871 0.808
+   colour_bottom 0.749 0.871 0.808
+  }
+ }
+}
